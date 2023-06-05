@@ -8,347 +8,364 @@ using namespace std;
 
 Game::Game()
 {
-	this->restrainList["NORMAL"]["NORMAL"] = 1;
-	this->restrainList["NORMAL"]["FIRE"] = 1;
-	this->restrainList["NORMAL"]["WATER"] = 1;
-	this->restrainList["NORMAL"]["ELECTRIC"] = 1;
-	this->restrainList["NORMAL"]["GRASS"] = 1;
-	this->restrainList["NORMAL"]["ICE"] = 1;
-	this->restrainList["NORMAL"]["FIGHTING"] = 1;
-	this->restrainList["NORMAL"]["POISON"] = 1;
-	this->restrainList["NORMAL"]["GROUND"] = 1;
-	this->restrainList["NORMAL"]["FLYING"] = 1;
-	this->restrainList["NORMAL"]["PSYCHIC"] = 1;
-	this->restrainList["NORMAL"]["BUG"] = 1;
-	this->restrainList["NORMAL"]["ROCK"] = 0.5;
-	this->restrainList["NORMAL"]["GHOST"] = 0;
-	this->restrainList["NORMAL"]["DRAGON"] = 1;
-	this->restrainList["NORMAL"]["DARK"] = 1;
-	this->restrainList["NORMAL"]["STEEL"] = 0.5;
-	this->restrainList["NORMAL"]["FAIRY"] = 1;
+	this->restrainList["Normal"]["Normal"] = 1;
+	this->restrainList["Normal"]["Fire"] = 1;
+	this->restrainList["Normal"]["Water"] = 1;
+	this->restrainList["Normal"]["Electric"] = 1;
+	this->restrainList["Normal"]["Grass"] = 1;
+	this->restrainList["Normal"]["Ice"] = 1;
+	this->restrainList["Normal"]["Fighting"] = 1;
+	this->restrainList["Normal"]["Poison"] = 1;
+	this->restrainList["Normal"]["Ground"] = 1;
+	this->restrainList["Normal"]["Flying"] = 1;
+	this->restrainList["Normal"]["Psychic"] = 1;
+	this->restrainList["Normal"]["Bug"] = 1;
+	this->restrainList["Normal"]["Rock"] = 0.5;
+	this->restrainList["Normal"]["Ghost"] = 0;
+	this->restrainList["Normal"]["Dragon"] = 1;
+	this->restrainList["Normal"]["Dark"] = 1;
+	this->restrainList["Normal"]["Steel"] = 0.5;
+	this->restrainList["Normal"]["Fairy"] = 1;
 
-	this->restrainList["FIRE"]["NORMAL"] = 1;
-	this->restrainList["FIRE"]["FIRE"] = 0.5;
-	this->restrainList["FIRE"]["WATER"] = 0.5;
-	this->restrainList["FIRE"]["ELECTRIC"] = 1;
-	this->restrainList["FIRE"]["GRASS"] = 2;
-	this->restrainList["FIRE"]["ICE"] = 2;
-	this->restrainList["FIRE"]["FIGHTING"] = 1;
-	this->restrainList["FIRE"]["POISON"] = 1;
-	this->restrainList["FIRE"]["GROUND"] = 1;
-	this->restrainList["FIRE"]["FLYING"] = 1;
-	this->restrainList["FIRE"]["PSYCHIC"] = 1;
-	this->restrainList["FIRE"]["BUG"] = 2;
-	this->restrainList["FIRE"]["ROCK"] = 0.5;
-	this->restrainList["FIRE"]["GHOST"] = 1;
-	this->restrainList["FIRE"]["DRAGON"] = 0.5;
-	this->restrainList["FIRE"]["DARK"] = 1;
-	this->restrainList["FIRE"]["STEEL"] = 2;
-	this->restrainList["FIRE"]["FAIRY"] = 1;
+	this->restrainList["Fire"]["Normal"] = 1;
+	this->restrainList["Fire"]["Fire"] = 0.5;
+	this->restrainList["Fire"]["Water"] = 0.5;
+	this->restrainList["Fire"]["Electric"] = 1;
+	this->restrainList["Fire"]["Grass"] = 2;
+	this->restrainList["Fire"]["Ice"] = 2;
+	this->restrainList["Fire"]["Fighting"] = 1;
+	this->restrainList["Fire"]["Poison"] = 1;
+	this->restrainList["Fire"]["Ground"] = 1;
+	this->restrainList["Fire"]["Flying"] = 1;
+	this->restrainList["Fire"]["Psychic"] = 1;
+	this->restrainList["Fire"]["Bug"] = 2;
+	this->restrainList["Fire"]["Rock"] = 0.5;
+	this->restrainList["Fire"]["Ghost"] = 1;
+	this->restrainList["Fire"]["Dragon"] = 0.5;
+	this->restrainList["Fire"]["Dark"] = 1;
+	this->restrainList["Fire"]["Steel"] = 2;
+	this->restrainList["Fire"]["Fairy"] = 1;
+	this->restrainList["Fire"][""] = 1;
 
-	this->restrainList["WATER"]["NORMAL"] = 1;
-	this->restrainList["WATER"]["FIRE"] = 2;
-	this->restrainList["WATER"]["WATER"] = 0.5;
-	this->restrainList["WATER"]["ELECTRIC"] = 1;
-	this->restrainList["WATER"]["GRASS"] = 0.5;
-	this->restrainList["WATER"]["ICE"] = 1;
-	this->restrainList["WATER"]["FIGHTING"] = 1;
-	this->restrainList["WATER"]["POISON"] = 1;
-	this->restrainList["WATER"]["GROUND"] = 2;
-	this->restrainList["WATER"]["FLYING"] = 1;
-	this->restrainList["WATER"]["PSYCHIC"] = 1;
-	this->restrainList["WATER"]["BUG"] = 1;
-	this->restrainList["WATER"]["ROCK"] = 2;
-	this->restrainList["WATER"]["GHOST"] = 1;
-	this->restrainList["WATER"]["DRAGON"] = 0.5;
-	this->restrainList["WATER"]["DARK"] = 1;
-	this->restrainList["WATER"]["STEEL"] = 1;
-	this->restrainList["WATER"]["FAIRY"] = 1;
+	this->restrainList["Water"]["Normal"] = 1;
+	this->restrainList["Water"]["Fire"] = 2;
+	this->restrainList["Water"]["Water"] = 0.5;
+	this->restrainList["Water"]["Electric"] = 1;
+	this->restrainList["Water"]["Grass"] = 0.5;
+	this->restrainList["Water"]["Ice"] = 1;
+	this->restrainList["Water"]["Fighting"] = 1;
+	this->restrainList["Water"]["Poison"] = 1;
+	this->restrainList["Water"]["Ground"] = 2;
+	this->restrainList["Water"]["Flying"] = 1;
+	this->restrainList["Water"]["Psychic"] = 1;
+	this->restrainList["Water"]["Bug"] = 1;
+	this->restrainList["Water"]["Rock"] = 2;
+	this->restrainList["Water"]["Ghost"] = 1;
+	this->restrainList["Water"]["Dragon"] = 0.5;
+	this->restrainList["Water"]["Dark"] = 1;
+	this->restrainList["Water"]["Steel"] = 1;
+	this->restrainList["Water"]["Fairy"] = 1;
+	this->restrainList["Water"][""] = 1;
 
-	this->restrainList["ELECTRIC"]["NORMAL"] = 1;
-	this->restrainList["ELECTRIC"]["FIRE"] = 1;
-	this->restrainList["ELECTRIC"]["WATER"] = 2;
-	this->restrainList["ELECTRIC"]["ELECTRIC"] = 0.5;
-	this->restrainList["ELECTRIC"]["GRASS"] = 0.5;
-	this->restrainList["ELECTRIC"]["ICE"] = 1;
-	this->restrainList["ELECTRIC"]["FIGHTING"] = 1;
-	this->restrainList["ELECTRIC"]["POISON"] = 1;
-	this->restrainList["ELECTRIC"]["GROUND"] = 1;
-	this->restrainList["ELECTRIC"]["FLYING"] = 0;
-	this->restrainList["ELECTRIC"]["PSYCHIC"] = 2;
-	this->restrainList["ELECTRIC"]["BUG"] = 1;
-	this->restrainList["ELECTRIC"]["ROCK"] = 1;
-	this->restrainList["ELECTRIC"]["GHOST"] = 1;
-	this->restrainList["ELECTRIC"]["DRAGON"] = 0.5;
-	this->restrainList["ELECTRIC"]["DARK"] = 1;
-	this->restrainList["ELECTRIC"]["STEEL"] = 1;
-	this->restrainList["ELECTRIC"]["FAIRY"] = 1;
+	this->restrainList["Electric"]["Normal"] = 1;
+	this->restrainList["Electric"]["Fire"] = 1;
+	this->restrainList["Electric"]["Water"] = 2;
+	this->restrainList["Electric"]["Electric"] = 0.5;
+	this->restrainList["Electric"]["Grass"] = 0.5;
+	this->restrainList["Electric"]["Ice"] = 1;
+	this->restrainList["Electric"]["Fighting"] = 1;
+	this->restrainList["Electric"]["Poison"] = 1;
+	this->restrainList["Electric"]["Ground"] = 1;
+	this->restrainList["Electric"]["Flying"] = 0;
+	this->restrainList["Electric"]["Psychic"] = 2;
+	this->restrainList["Electric"]["Bug"] = 1;
+	this->restrainList["Electric"]["Rock"] = 1;
+	this->restrainList["Electric"]["Ghost"] = 1;
+	this->restrainList["Electric"]["Dragon"] = 0.5;
+	this->restrainList["Electric"]["Dark"] = 1;
+	this->restrainList["Electric"]["Steel"] = 1;
+	this->restrainList["Electric"]["Fairy"] = 1;
+	this->restrainList["Electric"][""] = 1;
 
-	this->restrainList["GRASS"]["NORMAL"] = 1;
-	this->restrainList["GRASS"]["FIRE"] = 0.5;
-	this->restrainList["GRASS"]["WATER"] = 2;
-	this->restrainList["GRASS"]["ELECTRIC"] = 1;
-	this->restrainList["GRASS"]["GRASS"] = 0.5;
-	this->restrainList["GRASS"]["ICE"] = 1;
-	this->restrainList["GRASS"]["FIGHTING"] = 1;
-	this->restrainList["GRASS"]["POISON"] = 0.5;
-	this->restrainList["GRASS"]["GROUND"] = 2;
-	this->restrainList["GRASS"]["FLYING"] = 0.5;
-	this->restrainList["GRASS"]["PSYCHIC"] = 1;
-	this->restrainList["GRASS"]["BUG"] = 0.5;
-	this->restrainList["GRASS"]["ROCK"] = 2;
-	this->restrainList["GRASS"]["GHOST"] = 1;
-	this->restrainList["GRASS"]["DRAGON"] = 0.5;
-	this->restrainList["GRASS"]["DARK"] = 1;
-	this->restrainList["GRASS"]["STEEL"] = 0.5;
-	this->restrainList["GRASS"]["FAIRY"] = 1;
+	this->restrainList["Grass"]["Normal"] = 1;
+	this->restrainList["Grass"]["Fire"] = 0.5;
+	this->restrainList["Grass"]["Water"] = 2;
+	this->restrainList["Grass"]["Electric"] = 1;
+	this->restrainList["Grass"]["Grass"] = 0.5;
+	this->restrainList["Grass"]["Ice"] = 1;
+	this->restrainList["Grass"]["Fighting"] = 1;
+	this->restrainList["Grass"]["Poison"] = 0.5;
+	this->restrainList["Grass"]["Ground"] = 2;
+	this->restrainList["Grass"]["Flying"] = 0.5;
+	this->restrainList["Grass"]["Psychic"] = 1;
+	this->restrainList["Grass"]["Bug"] = 0.5;
+	this->restrainList["Grass"]["Rock"] = 2;
+	this->restrainList["Grass"]["Ghost"] = 1;
+	this->restrainList["Grass"]["Dragon"] = 0.5;
+	this->restrainList["Grass"]["Dark"] = 1;
+	this->restrainList["Grass"]["Steel"] = 0.5;
+	this->restrainList["Grass"]["Fairy"] = 1;
+	this->restrainList["Grass"][""] = 1;
 
-	this->restrainList["ICE"]["NORMAL"] = 1;
-	this->restrainList["ICE"]["FIRE"] = 0.5;
-	this->restrainList["ICE"]["WATER"] = 0.5;
-	this->restrainList["ICE"]["ELECTRIC"] = 1;
-	this->restrainList["ICE"]["GRASS"] = 2;
-	this->restrainList["ICE"]["ICE"] = 0.5;
-	this->restrainList["ICE"]["FIGHTING"] = 1;
-	this->restrainList["ICE"]["POISON"] = 1;
-	this->restrainList["ICE"]["GROUND"] = 2;
-	this->restrainList["ICE"]["FLYING"] = 2;
-	this->restrainList["ICE"]["PSYCHIC"] = 1;
-	this->restrainList["ICE"]["BUG"] = 1;
-	this->restrainList["ICE"]["ROCK"] = 1;
-	this->restrainList["ICE"]["GHOST"] = 1;
-	this->restrainList["ICE"]["DRAGON"] = 2;
-	this->restrainList["ICE"]["DARK"] = 1;
-	this->restrainList["ICE"]["STEEL"] = 0.5;
-	this->restrainList["ICE"]["FAIRY"] = 1;
+	this->restrainList["Ice"]["Normal"] = 1;
+	this->restrainList["Ice"]["Fire"] = 0.5;
+	this->restrainList["Ice"]["Water"] = 0.5;
+	this->restrainList["Ice"]["Electric"] = 1;
+	this->restrainList["Ice"]["Grass"] = 2;
+	this->restrainList["Ice"]["Ice"] = 0.5;
+	this->restrainList["Ice"]["Fighting"] = 1;
+	this->restrainList["Ice"]["Poison"] = 1;
+	this->restrainList["Ice"]["Ground"] = 2;
+	this->restrainList["Ice"]["Flying"] = 2;
+	this->restrainList["Ice"]["Psychic"] = 1;
+	this->restrainList["Ice"]["Bug"] = 1;
+	this->restrainList["Ice"]["Rock"] = 1;
+	this->restrainList["Ice"]["Ghost"] = 1;
+	this->restrainList["Ice"]["Dragon"] = 2;
+	this->restrainList["Ice"]["Dark"] = 1;
+	this->restrainList["Ice"]["Steel"] = 0.5;
+	this->restrainList["Ice"]["Fairy"] = 1;
+	this->restrainList["Ice"][""] = 1;
 
-	this->restrainList["FIGHTING"]["NORMAL"] = 2;
-	this->restrainList["FIGHTING"]["FIRE"] = 1;
-	this->restrainList["FIGHTING"]["WATER"] = 1;
-	this->restrainList["FIGHTING"]["ELECTRIC"] = 1;
-	this->restrainList["FIGHTING"]["GRASS"] = 1;
-	this->restrainList["FIGHTING"]["ICE"] = 2;
-	this->restrainList["FIGHTING"]["FIGHTING"] = 1;
-	this->restrainList["FIGHTING"]["POISON"] = 0.5;
-	this->restrainList["FIGHTING"]["GROUND"] = 1;
-	this->restrainList["FIGHTING"]["FLYING"] = 0.5;
-	this->restrainList["FIGHTING"]["PSYCHIC"] = 0.5;
-	this->restrainList["FIGHTING"]["BUG"] = 0.5;
-	this->restrainList["FIGHTING"]["ROCK"] = 2;
-	this->restrainList["FIGHTING"]["GHOST"] = 0;
-	this->restrainList["FIGHTING"]["DRAGON"] = 1;
-	this->restrainList["FIGHTING"]["DARK"] = 2;
-	this->restrainList["FIGHTING"]["STEEL"] = 2;
-	this->restrainList["FIGHTING"]["FAIRY"] = 0.5;
+	this->restrainList["Fighting"]["Normal"] = 2;
+	this->restrainList["Fighting"]["Fire"] = 1;
+	this->restrainList["Fighting"]["Water"] = 1;
+	this->restrainList["Fighting"]["Electric"] = 1;
+	this->restrainList["Fighting"]["Grass"] = 1;
+	this->restrainList["Fighting"]["Ice"] = 2;
+	this->restrainList["Fighting"]["Fighting"] = 1;
+	this->restrainList["Fighting"]["Poison"] = 0.5;
+	this->restrainList["Fighting"]["Ground"] = 1;
+	this->restrainList["Fighting"]["Flying"] = 0.5;
+	this->restrainList["Fighting"]["Psychic"] = 0.5;
+	this->restrainList["Fighting"]["Bug"] = 0.5;
+	this->restrainList["Fighting"]["Rock"] = 2;
+	this->restrainList["Fighting"]["Ghost"] = 0;
+	this->restrainList["Fighting"]["Dragon"] = 1;
+	this->restrainList["Fighting"]["Dark"] = 2;
+	this->restrainList["Fighting"]["Steel"] = 2;
+	this->restrainList["Fighting"]["Fairy"] = 0.5;
+	this->restrainList["Fighting"][""] = 1;
 
-	this->restrainList["POISON"]["NORMAL"] = 1;
-	this->restrainList["POISON"]["FIRE"] = 1;
-	this->restrainList["POISON"]["WATER"] = 1;
-	this->restrainList["POISON"]["ELECTRIC"] = 1;
-	this->restrainList["POISON"]["GRASS"] = 2;
-	this->restrainList["POISON"]["ICE"] = 1;
-	this->restrainList["POISON"]["FIGHTING"] = 1;
-	this->restrainList["POISON"]["POISON"] = 0.5;
-	this->restrainList["POISON"]["GROUND"] = 0.5;
-	this->restrainList["POISON"]["FLYING"] = 1;
-	this->restrainList["POISON"]["PSYCHIC"] = 1;
-	this->restrainList["POISON"]["BUG"] = 1;
-	this->restrainList["POISON"]["ROCK"] = 0.5;
-	this->restrainList["POISON"]["GHOST"] = 0.5;
-	this->restrainList["POISON"]["DRAGON"] = 1;
-	this->restrainList["POISON"]["DARK"] = 1;
-	this->restrainList["POISON"]["STEEL"] = 0;
-	this->restrainList["POISON"]["FAIRY"] = 2;
+	this->restrainList["Poison"]["Normal"] = 1;
+	this->restrainList["Poison"]["Fire"] = 1;
+	this->restrainList["Poison"]["Water"] = 1;
+	this->restrainList["Poison"]["Electric"] = 1;
+	this->restrainList["Poison"]["Grass"] = 2;
+	this->restrainList["Poison"]["Ice"] = 1;
+	this->restrainList["Poison"]["Fighting"] = 1;
+	this->restrainList["Poison"]["Poison"] = 0.5;
+	this->restrainList["Poison"]["Ground"] = 0.5;
+	this->restrainList["Poison"]["Flying"] = 1;
+	this->restrainList["Poison"]["Psychic"] = 1;
+	this->restrainList["Poison"]["Bug"] = 1;
+	this->restrainList["Poison"]["Rock"] = 0.5;
+	this->restrainList["Poison"]["Ghost"] = 0.5;
+	this->restrainList["Poison"]["Dragon"] = 1;
+	this->restrainList["Poison"]["Dark"] = 1;
+	this->restrainList["Poison"]["Steel"] = 0;
+	this->restrainList["Poison"]["Fairy"] = 2;
+	this->restrainList["Poison"][""] = 1;
 
-	this->restrainList["GROUND"]["NORMAL"] = 1;
-	this->restrainList["GROUND"]["FIRE"] = 2;
-	this->restrainList["GROUND"]["WATER"] = 1;
-	this->restrainList["GROUND"]["ELECTRIC"] = 2;
-	this->restrainList["GROUND"]["GRASS"] = 0.5;
-	this->restrainList["GROUND"]["ICE"] = 1;
-	this->restrainList["GROUND"]["FIGHTING"] = 1;
-	this->restrainList["GROUND"]["POISON"] = 2;
-	this->restrainList["GROUND"]["GROUND"] = 1;
-	this->restrainList["GROUND"]["FLYING"] = 0;
-	this->restrainList["GROUND"]["PSYCHIC"] = 1;
-	this->restrainList["GROUND"]["BUG"] = 0.5;
-	this->restrainList["GROUND"]["ROCK"] = 2;
-	this->restrainList["GROUND"]["GHOST"] = 1;
-	this->restrainList["GROUND"]["DRAGON"] = 1;
-	this->restrainList["GROUND"]["DARK"] = 1;
-	this->restrainList["GROUND"]["STEEL"] = 2;
-	this->restrainList["GROUND"]["FAIRY"] = 1;
+	this->restrainList["Ground"]["Normal"] = 1;
+	this->restrainList["Ground"]["Fire"] = 2;
+	this->restrainList["Ground"]["Water"] = 1;
+	this->restrainList["Ground"]["Electric"] = 2;
+	this->restrainList["Ground"]["Grass"] = 0.5;
+	this->restrainList["Ground"]["Ice"] = 1;
+	this->restrainList["Ground"]["Fighting"] = 1;
+	this->restrainList["Ground"]["Poison"] = 2;
+	this->restrainList["Ground"]["Ground"] = 1;
+	this->restrainList["Ground"]["Flying"] = 0;
+	this->restrainList["Ground"]["Psychic"] = 1;
+	this->restrainList["Ground"]["Bug"] = 0.5;
+	this->restrainList["Ground"]["Rock"] = 2;
+	this->restrainList["Ground"]["Ghost"] = 1;
+	this->restrainList["Ground"]["Dragon"] = 1;
+	this->restrainList["Ground"]["Dark"] = 1;
+	this->restrainList["Ground"]["Steel"] = 2;
+	this->restrainList["Ground"]["Fairy"] = 1;
+	this->restrainList["Ground"][""] = 1;
 
-	this->restrainList["FLYING"]["NORMAL"] = 1;
-	this->restrainList["FLYING"]["FIRE"] = 1;
-	this->restrainList["FLYING"]["WATER"] = 1;
-	this->restrainList["FLYING"]["ELECTRIC"] = 0.5;
-	this->restrainList["FLYING"]["GRASS"] = 2;
-	this->restrainList["FLYING"]["ICE"] = 1;
-	this->restrainList["FLYING"]["FIGHTING"] = 2;
-	this->restrainList["FLYING"]["POISON"] = 1;
-	this->restrainList["FLYING"]["GROUND"] = 1;
-	this->restrainList["FLYING"]["FLYING"] = 1;
-	this->restrainList["FLYING"]["PSYCHIC"] = 1;
-	this->restrainList["FLYING"]["BUG"] = 2;
-	this->restrainList["FLYING"]["ROCK"] = 0.5;
-	this->restrainList["FLYING"]["GHOST"] = 1;
-	this->restrainList["FLYING"]["DRAGON"] = 1;
-	this->restrainList["FLYING"]["DARK"] = 1;
-	this->restrainList["FLYING"]["STEEL"] = 0.5;
-	this->restrainList["FLYING"]["FAIRY"] = 1;
+	this->restrainList["Flying"]["Normal"] = 1;
+	this->restrainList["Flying"]["Fire"] = 1;
+	this->restrainList["Flying"]["Water"] = 1;
+	this->restrainList["Flying"]["Electric"] = 0.5;
+	this->restrainList["Flying"]["Grass"] = 2;
+	this->restrainList["Flying"]["Ice"] = 1;
+	this->restrainList["Flying"]["Fighting"] = 2;
+	this->restrainList["Flying"]["Poison"] = 1;
+	this->restrainList["Flying"]["Ground"] = 1;
+	this->restrainList["Flying"]["Flying"] = 1;
+	this->restrainList["Flying"]["Psychic"] = 1;
+	this->restrainList["Flying"]["Bug"] = 2;
+	this->restrainList["Flying"]["Rock"] = 0.5;
+	this->restrainList["Flying"]["Ghost"] = 1;
+	this->restrainList["Flying"]["Dragon"] = 1;
+	this->restrainList["Flying"]["Dark"] = 1;
+	this->restrainList["Flying"]["Steel"] = 0.5;
+	this->restrainList["Flying"]["Fairy"] = 1;
+	this->restrainList["Flying"][""] = 1;
 
-	this->restrainList["PSYCHIC"]["NORMAL"] = 1;
-	this->restrainList["PSYCHIC"]["FIRE"] = 1;
-	this->restrainList["PSYCHIC"]["WATER"] = 1;
-	this->restrainList["PSYCHIC"]["ELECTRIC"] = 1;
-	this->restrainList["PSYCHIC"]["GRASS"] = 1;
-	this->restrainList["PSYCHIC"]["ICE"] = 1;
-	this->restrainList["PSYCHIC"]["FIGHTING"] = 2;
-	this->restrainList["PSYCHIC"]["POISON"] = 2;
-	this->restrainList["PSYCHIC"]["GROUND"] = 1;
-	this->restrainList["PSYCHIC"]["FLYING"] = 1;
-	this->restrainList["PSYCHIC"]["PSYCHIC"] = 0.5;
-	this->restrainList["PSYCHIC"]["BUG"] = 1;
-	this->restrainList["PSYCHIC"]["ROCK"] = 1;
-	this->restrainList["PSYCHIC"]["GHOST"] = 1;
-	this->restrainList["PSYCHIC"]["DRAGON"] = 1;
-	this->restrainList["PSYCHIC"]["DARK"] = 0;
-	this->restrainList["PSYCHIC"]["STEEL"] = 0.5;
-	this->restrainList["PSYCHIC"]["FAIRY"] = 1;
+	this->restrainList["Psychic"]["Normal"] = 1;
+	this->restrainList["Psychic"]["Fire"] = 1;
+	this->restrainList["Psychic"]["Water"] = 1;
+	this->restrainList["Psychic"]["Electric"] = 1;
+	this->restrainList["Psychic"]["Grass"] = 1;
+	this->restrainList["Psychic"]["Ice"] = 1;
+	this->restrainList["Psychic"]["Fighting"] = 2;
+	this->restrainList["Psychic"]["Poison"] = 2;
+	this->restrainList["Psychic"]["Ground"] = 1;
+	this->restrainList["Psychic"]["Flying"] = 1;
+	this->restrainList["Psychic"]["Psychic"] = 0.5;
+	this->restrainList["Psychic"]["Bug"] = 1;
+	this->restrainList["Psychic"]["Rock"] = 1;
+	this->restrainList["Psychic"]["Ghost"] = 1;
+	this->restrainList["Psychic"]["Dragon"] = 1;
+	this->restrainList["Psychic"]["Dark"] = 0;
+	this->restrainList["Psychic"]["Steel"] = 0.5;
+	this->restrainList["Psychic"]["Fairy"] = 1;
+	this->restrainList["Psychic"][""] = 1;
 
-	this->restrainList["BUG"]["NORMAL"] = 1;
-	this->restrainList["BUG"]["FIRE"] = 0.5;
-	this->restrainList["BUG"]["WATER"] = 1;
-	this->restrainList["BUG"]["ELECTRIC"] = 1;
-	this->restrainList["BUG"]["GRASS"] = 2;
-	this->restrainList["BUG"]["ICE"] = 1;
-	this->restrainList["BUG"]["FIGHTING"] = 0.5;
-	this->restrainList["BUG"]["POISON"] = 0.5;
-	this->restrainList["BUG"]["GROUND"] = 1;
-	this->restrainList["BUG"]["FLYING"] = 0.5;
-	this->restrainList["BUG"]["PSYCHIC"] = 2;
-	this->restrainList["BUG"]["BUG"] = 1;
-	this->restrainList["BUG"]["ROCK"] = 1;
-	this->restrainList["BUG"]["GHOST"] = 0.5;
-	this->restrainList["BUG"]["DRAGON"] = 1;
-	this->restrainList["BUG"]["DARK"] = 2;
-	this->restrainList["BUG"]["STEEL"] = 0.5;
-	this->restrainList["BUG"]["FAIRY"] = 0.5;
+	this->restrainList["Bug"]["Normal"] = 1;
+	this->restrainList["Bug"]["Fire"] = 0.5;
+	this->restrainList["Bug"]["Water"] = 1;
+	this->restrainList["Bug"]["Electric"] = 1;
+	this->restrainList["Bug"]["Grass"] = 2;
+	this->restrainList["Bug"]["Ice"] = 1;
+	this->restrainList["Bug"]["Fighting"] = 0.5;
+	this->restrainList["Bug"]["Poison"] = 0.5;
+	this->restrainList["Bug"]["Ground"] = 1;
+	this->restrainList["Bug"]["Flying"] = 0.5;
+	this->restrainList["Bug"]["Psychic"] = 2;
+	this->restrainList["Bug"]["Bug"] = 1;
+	this->restrainList["Bug"]["Rock"] = 1;
+	this->restrainList["Bug"]["Ghost"] = 0.5;
+	this->restrainList["Bug"]["Dragon"] = 1;
+	this->restrainList["Bug"]["Dark"] = 2;
+	this->restrainList["Bug"]["Steel"] = 0.5;
+	this->restrainList["Bug"]["Fairy"] = 0.5;
+	this->restrainList["Bug"][""] = 1;
 
-	this->restrainList["ROCK"]["NORMAL"] = 1;
-	this->restrainList["ROCK"]["FIRE"] = 2;
-	this->restrainList["ROCK"]["WATER"] = 1;
-	this->restrainList["ROCK"]["ELECTRIC"] = 1;
-	this->restrainList["ROCK"]["GRASS"] = 1;
-	this->restrainList["ROCK"]["ICE"] = 2;
-	this->restrainList["ROCK"]["FIGHTING"] = 0.5;
-	this->restrainList["ROCK"]["POISON"] = 1;
-	this->restrainList["ROCK"]["GROUND"] = 0.5;
-	this->restrainList["ROCK"]["FLYING"] = 2;
-	this->restrainList["ROCK"]["PSYCHIC"] = 1;
-	this->restrainList["ROCK"]["BUG"] = 2;
-	this->restrainList["ROCK"]["ROCK"] = 1;
-	this->restrainList["ROCK"]["GHOST"] = 1;
-	this->restrainList["ROCK"]["DRAGON"] = 1;
-	this->restrainList["ROCK"]["DARK"] = 1;
-	this->restrainList["ROCK"]["STEEL"] = 0.5;
-	this->restrainList["ROCK"]["FAIRY"] = 1;
+	this->restrainList["Rock"]["Normal"] = 1;
+	this->restrainList["Rock"]["Fire"] = 2;
+	this->restrainList["Rock"]["Water"] = 1;
+	this->restrainList["Rock"]["Electric"] = 1;
+	this->restrainList["Rock"]["Grass"] = 1;
+	this->restrainList["Rock"]["Ice"] = 2;
+	this->restrainList["Rock"]["Fighting"] = 0.5;
+	this->restrainList["Rock"]["Poison"] = 1;
+	this->restrainList["Rock"]["Ground"] = 0.5;
+	this->restrainList["Rock"]["Flying"] = 2;
+	this->restrainList["Rock"]["Psychic"] = 1;
+	this->restrainList["Rock"]["Bug"] = 2;
+	this->restrainList["Rock"]["Rock"] = 1;
+	this->restrainList["Rock"]["Ghost"] = 1;
+	this->restrainList["Rock"]["Dragon"] = 1;
+	this->restrainList["Rock"]["Dark"] = 1;
+	this->restrainList["Rock"]["Steel"] = 0.5;
+	this->restrainList["Rock"]["Fairy"] = 1;
+	this->restrainList["Rock"][""] = 1;
 
-	this->restrainList["GHOST"]["NORMAL"] = 0;
-	this->restrainList["GHOST"]["FIRE"] = 1;
-	this->restrainList["GHOST"]["WATER"] = 1;
-	this->restrainList["GHOST"]["ELECTRIC"] = 1;
-	this->restrainList["GHOST"]["GRASS"] = 1;
-	this->restrainList["GHOST"]["ICE"] = 1;
-	this->restrainList["GHOST"]["FIGHTING"] = 1;
-	this->restrainList["GHOST"]["POISON"] = 1;
-	this->restrainList["GHOST"]["GROUND"] = 1;
-	this->restrainList["GHOST"]["FLYING"] = 1;
-	this->restrainList["GHOST"]["PSYCHIC"] = 2;
-	this->restrainList["GHOST"]["BUG"] = 1;
-	this->restrainList["GHOST"]["ROCK"] = 1;
-	this->restrainList["GHOST"]["GHOST"] = 2;
-	this->restrainList["GHOST"]["DRAGON"] = 1;
-	this->restrainList["GHOST"]["DARK"] = 0.5;
-	this->restrainList["GHOST"]["STEEL"] = 1;
-	this->restrainList["GHOST"]["FAIRY"] = 1;
+	this->restrainList["Ghost"]["Normal"] = 0;
+	this->restrainList["Ghost"]["Fire"] = 1;
+	this->restrainList["Ghost"]["Water"] = 1;
+	this->restrainList["Ghost"]["Electric"] = 1;
+	this->restrainList["Ghost"]["Grass"] = 1;
+	this->restrainList["Ghost"]["Ice"] = 1;
+	this->restrainList["Ghost"]["Fighting"] = 1;
+	this->restrainList["Ghost"]["Poison"] = 1;
+	this->restrainList["Ghost"]["Ground"] = 1;
+	this->restrainList["Ghost"]["Flying"] = 1;
+	this->restrainList["Ghost"]["Psychic"] = 2;
+	this->restrainList["Ghost"]["Bug"] = 1;
+	this->restrainList["Ghost"]["Rock"] = 1;
+	this->restrainList["Ghost"]["Ghost"] = 2;
+	this->restrainList["Ghost"]["Dragon"] = 1;
+	this->restrainList["Ghost"]["Dark"] = 0.5;
+	this->restrainList["Ghost"]["Steel"] = 1;
+	this->restrainList["Ghost"]["Fairy"] = 1;
+	this->restrainList["Ghost"][""] = 1;
 
-	this->restrainList["DRAGON"]["NORMAL"] = 1;
-	this->restrainList["DRAGON"]["FIRE"] = 1;
-	this->restrainList["DRAGON"]["WATER"] = 1;
-	this->restrainList["DRAGON"]["ELECTRIC"] = 1;
-	this->restrainList["DRAGON"]["GRASS"] = 1;
-	this->restrainList["DRAGON"]["ICE"] = 1;
-	this->restrainList["DRAGON"]["FIGHTING"] = 1;
-	this->restrainList["DRAGON"]["POISON"] = 1;
-	this->restrainList["DRAGON"]["GROUND"] = 1;
-	this->restrainList["DRAGON"]["FLYING"] = 1;
-	this->restrainList["DRAGON"]["PSYCHIC"] = 1;
-	this->restrainList["DRAGON"]["BUG"] = 1;
-	this->restrainList["DRAGON"]["ROCK"] = 1;
-	this->restrainList["DRAGON"]["GHOST"] = 1;
-	this->restrainList["DRAGON"]["DRAGON"] = 2;
-	this->restrainList["DRAGON"]["DARK"] = 1;
-	this->restrainList["DRAGON"]["STEEL"] = 0.5;
-	this->restrainList["DRAGON"]["FAIRY"] = 0;
+	this->restrainList["Dragon"]["Normal"] = 1;
+	this->restrainList["Dragon"]["Fire"] = 1;
+	this->restrainList["Dragon"]["Water"] = 1;
+	this->restrainList["Dragon"]["Electric"] = 1;
+	this->restrainList["Dragon"]["Grass"] = 1;
+	this->restrainList["Dragon"]["Ice"] = 1;
+	this->restrainList["Dragon"]["Fighting"] = 1;
+	this->restrainList["Dragon"]["Poison"] = 1;
+	this->restrainList["Dragon"]["Ground"] = 1;
+	this->restrainList["Dragon"]["Flying"] = 1;
+	this->restrainList["Dragon"]["Psychic"] = 1;
+	this->restrainList["Dragon"]["Bug"] = 1;
+	this->restrainList["Dragon"]["Rock"] = 1;
+	this->restrainList["Dragon"]["Ghost"] = 1;
+	this->restrainList["Dragon"]["Dragon"] = 2;
+	this->restrainList["Dragon"]["Dark"] = 1;
+	this->restrainList["Dragon"]["Steel"] = 0.5;
+	this->restrainList["Dragon"]["Fairy"] = 0;
+	this->restrainList["Dragon"][""] = 1;
 
-	this->restrainList["DARK"]["NORMAL"] = 1;
-	this->restrainList["DARK"]["FIRE"] = 1;
-	this->restrainList["DARK"]["WATER"] = 1;
-	this->restrainList["DARK"]["ELECTRIC"] = 1;
-	this->restrainList["DARK"]["GRASS"] = 1;
-	this->restrainList["DARK"]["ICE"] = 1;
-	this->restrainList["DARK"]["FIGHTING"] = 0.5;
-	this->restrainList["DARK"]["POISON"] = 1;
-	this->restrainList["DARK"]["GROUND"] = 1;
-	this->restrainList["DARK"]["FLYING"] = 1;
-	this->restrainList["DARK"]["PSYCHIC"] = 2;
-	this->restrainList["DARK"]["BUG"] = 1;
-	this->restrainList["DARK"]["ROCK"] = 1;
-	this->restrainList["DARK"]["GHOST"] = 2;
-	this->restrainList["DARK"]["DRAGON"] = 1;
-	this->restrainList["DARK"]["DARK"] = 0.5;
-	this->restrainList["DARK"]["STEEL"] = 1;
-	this->restrainList["DARK"]["FAIRY"] = 0.5;
+	this->restrainList["Dark"]["Normal"] = 1;
+	this->restrainList["Dark"]["Fire"] = 1;
+	this->restrainList["Dark"]["Water"] = 1;
+	this->restrainList["Dark"]["Electric"] = 1;
+	this->restrainList["Dark"]["Grass"] = 1;
+	this->restrainList["Dark"]["Ice"] = 1;
+	this->restrainList["Dark"]["Fighting"] = 0.5;
+	this->restrainList["Dark"]["Poison"] = 1;
+	this->restrainList["Dark"]["Ground"] = 1;
+	this->restrainList["Dark"]["Flying"] = 1;
+	this->restrainList["Dark"]["Psychic"] = 2;
+	this->restrainList["Dark"]["Bug"] = 1;
+	this->restrainList["Dark"]["Rock"] = 1;
+	this->restrainList["Dark"]["Ghost"] = 2;
+	this->restrainList["Dark"]["Dragon"] = 1;
+	this->restrainList["Dark"]["Dark"] = 0.5;
+	this->restrainList["Dark"]["Steel"] = 1;
+	this->restrainList["Dark"]["Fairy"] = 0.5;
+	this->restrainList["Dark"][""] = 1;
 
-	this->restrainList["STEEL"]["NORMAL"] = 1;
-	this->restrainList["STEEL"]["FIRE"] = 0.5;
-	this->restrainList["STEEL"]["WATER"] = 0.5;
-	this->restrainList["STEEL"]["ELECTRIC"] = 0.5;
-	this->restrainList["STEEL"]["GRASS"] = 1;
-	this->restrainList["STEEL"]["ICE"] = 2;
-	this->restrainList["STEEL"]["FIGHTING"] = 1;
-	this->restrainList["STEEL"]["POISON"] = 1;
-	this->restrainList["STEEL"]["GROUND"] = 1;
-	this->restrainList["STEEL"]["FLYING"] = 1;
-	this->restrainList["STEEL"]["PSYCHIC"] = 1;
-	this->restrainList["STEEL"]["BUG"] = 1;
-	this->restrainList["STEEL"]["ROCK"] = 2;
-	this->restrainList["STEEL"]["GHOST"] = 1;
-	this->restrainList["STEEL"]["DRAGON"] = 1;
-	this->restrainList["STEEL"]["DARK"] = 1;
-	this->restrainList["STEEL"]["STEEL"] = 0.5;
-	this->restrainList["STEEL"]["FAIRY"] = 2;
+	this->restrainList["Steel"]["Normal"] = 1;
+	this->restrainList["Steel"]["Fire"] = 0.5;
+	this->restrainList["Steel"]["Water"] = 0.5;
+	this->restrainList["Steel"]["Electric"] = 0.5;
+	this->restrainList["Steel"]["Grass"] = 1;
+	this->restrainList["Steel"]["Ice"] = 2;
+	this->restrainList["Steel"]["Fighting"] = 1;
+	this->restrainList["Steel"]["Poison"] = 1;
+	this->restrainList["Steel"]["Ground"] = 1;
+	this->restrainList["Steel"]["Flying"] = 1;
+	this->restrainList["Steel"]["Psychic"] = 1;
+	this->restrainList["Steel"]["Bug"] = 1;
+	this->restrainList["Steel"]["Rock"] = 2;
+	this->restrainList["Steel"]["Ghost"] = 1;
+	this->restrainList["Steel"]["Dragon"] = 1;
+	this->restrainList["Steel"]["Dark"] = 1;
+	this->restrainList["Steel"]["Steel"] = 0.5;
+	this->restrainList["Steel"]["Fairy"] = 2;
+	this->restrainList["Steel"][""] = 1;
 
-	this->restrainList["FAIRY"]["NORMAL"] = 1;
-	this->restrainList["FAIRY"]["FIRE"] = 0.5;
-	this->restrainList["FAIRY"]["WATER"] = 1;
-	this->restrainList["FAIRY"]["ELECTRIC"] = 1;
-	this->restrainList["FAIRY"]["GRASS"] = 1;
-	this->restrainList["FAIRY"]["ICE"] = 1;
-	this->restrainList["FAIRY"]["FIGHTING"] = 2;
-	this->restrainList["FAIRY"]["POISON"] = 0.5;
-	this->restrainList["FAIRY"]["GROUND"] = 1;
-	this->restrainList["FAIRY"]["FLYING"] = 1;
-	this->restrainList["FAIRY"]["PSYCHIC"] = 1;
-	this->restrainList["FAIRY"]["BUG"] = 1;
-	this->restrainList["FAIRY"]["ROCK"] = 1;
-	this->restrainList["FAIRY"]["GHOST"] = 1;
-	this->restrainList["FAIRY"]["DRAGON"] = 2;
-	this->restrainList["FAIRY"]["DARK"] = 2;
-	this->restrainList["FAIRY"]["STEEL"] = 0.5;
-	this->restrainList["FAIRY"]["FAIRY"] = 1;
+	this->restrainList["Fairy"]["Normal"] = 1;
+	this->restrainList["Fairy"]["Fire"] = 0.5;
+	this->restrainList["Fairy"]["Water"] = 1;
+	this->restrainList["Fairy"]["Electric"] = 1;
+	this->restrainList["Fairy"]["Grass"] = 1;
+	this->restrainList["Fairy"]["Ice"] = 1;
+	this->restrainList["Fairy"]["Fighting"] = 2;
+	this->restrainList["Fairy"]["Poison"] = 0.5;
+	this->restrainList["Fairy"]["Ground"] = 1;
+	this->restrainList["Fairy"]["Flying"] = 1;
+	this->restrainList["Fairy"]["Psychic"] = 1;
+	this->restrainList["Fairy"]["Bug"] = 1;
+	this->restrainList["Fairy"]["Rock"] = 1;
+	this->restrainList["Fairy"]["Ghost"] = 1;
+	this->restrainList["Fairy"]["Dragon"] = 2;
+	this->restrainList["Fairy"]["Dark"] = 2;
+	this->restrainList["Fairy"]["Steel"] = 0.5;
+	this->restrainList["Fairy"]["Fairy"] = 1;
+	this->restrainList["Fairy"][""] = 1;
 
 	this->gameState = "StandBy";
 	this->gameMode = "Normal";
@@ -397,21 +414,71 @@ void Game::selectMode()
 
 void Game::printTurn()
 {
-	cout << this->turn << endl;
+	cout << "Turn " << this->turn << endl;
 }
 
 int Game::countDamage(Pokemon move, Pokemon target, Skill use)
 {
-	int damage = 0;
+	float damage = 0;
+
+	float test1 = float(move.getAtk()) / target.getDef();
+	float test2 = float(move.getSpAtk()) / target.getSpDef();
 	if (use.getAtkType() == "Physical")
 	{
 		if (this->gameMode == "Test")
 		{
-			damage = (((2 * move.getLevel() + 10) / 250) * use.getPower() * (move.getAtk() / target.getDef()) + 2) * 1;
+			if (move.getType1() == use.getSkillType() || move.getType2() == use.getSkillType())
+			{
+				damage = (((2 * move.getLevel() + 10) / 250.0) * use.getPower() * (float(move.getAtk()) / target.getDef()) + 2) * 1 * 1.5 * this->restrainList[use.getSkillType()][target.getType1()] * this->restrainList[use.getSkillType()][target.getType2()];
+			}
+			else
+			{
+				damage = (((2 * move.getLevel() + 10) / 250.0) * use.getPower() * (float(move.getAtk()) / target.getDef()) + 2) * 1 * 1 * this->restrainList[use.getSkillType()][target.getType1()] * this->restrainList[use.getSkillType()][target.getType2()];
+			}
 		}
-		
-	}
+		else if (this->gameMode == "Normal")
+		{
+			//have free time will write,the accuracy of skill isn't 100%
+		}
 
+	}
+	else if (use.getAtkType() == "Special")
+	{
+		if (this->gameMode == "Test")
+		{
+			if (move.getType1() == use.getSkillType() || move.getType2() == use.getSkillType())
+			{
+				damage = (((2 * move.getLevel() + 10) / 250.0) * use.getPower() * (float(move.getSpAtk()) / target.getSpDef()) + 2) * 1 * 1.5 * this->restrainList[use.getSkillType()][target.getType1()] * this->restrainList[use.getSkillType()][target.getType2()];
+			}
+			else
+			{
+				damage = (((2 * move.getLevel() + 10) / 250.0) * use.getPower() * (float(move.getSpAtk()) / target.getSpDef()) + 2) * 1 * 1 * this->restrainList[use.getSkillType()][target.getType1()] * this->restrainList[use.getSkillType()][target.getType2()];
+			}
+		}
+		else if (this->gameMode == "Normal")
+		{
+			//have free time will write,the accuracy of skill isn't 100%
+		}
+	}
+	else if (use.getAtkType() == "Status")
+	{
+		damage = 0;
+	}
+	int finalDamage = floor(damage);
+	cout << move.getName() << " use " << use.getName() << " to make " << finalDamage << " on " << target.getName() << "!" << endl;
+	if (this->restrainList[use.getSkillType()][target.getType1()] * this->restrainList[use.getSkillType()][target.getType2()] <= 0.5)
+	{
+		cout << "It's not very effective..." << endl;
+	}
+	else if (this->restrainList[use.getSkillType()][target.getType1()] * this->restrainList[use.getSkillType()][target.getType2()] == 1)
+	{
+		cout << "It's normally effective!" << endl;
+	}
+	else
+	{
+		cout << "It's super effective!" << endl;
+	}
+	return finalDamage;
 }
 
 void Game::loadFile()
@@ -550,16 +617,55 @@ void Game::loadFile()
 	string mode, select, ownSkill, enemySkill, potion, targetPokemon, changePokemon;
 	file >> mode;
 	this->gameMode = mode;
-	int myDamage, enemyDamage;
+	int myDamage = 0, enemyDamage = 0;
 	while (file >> select)
 	{
+		printTurn();
 		if (select == "Battle")
 		{
 			file >> ownSkill >> enemySkill;
 			this->myself.pokemonList[0].useSkill(ownSkill);
 			this->opponent.pokemonList[0].useSkill(enemySkill);
-			countDamage(this->myself.pokemonList[0], this->opponent.pokemonList[0], this->myself.pokemonList[0].getSkill(ownSkill));
-			countDamage(this->opponent.pokemonList[0], this->myself.pokemonList[0], this->opponent.pokemonList[0].getSkill(enemySkill));
+			if (this->myself.pokemonList[0].getSpeed() >= this->opponent.pokemonList[0].getSpeed())
+			{
+				myDamage = countDamage(this->myself.pokemonList[0], this->opponent.pokemonList[0], this->myself.pokemonList[0].getSkill(ownSkill));
+				this->opponent.pokemonList[0].setHP(this->opponent.pokemonList[0].getHP() - myDamage);
+				if (this->opponent.pokemonList[0].getHP() > 0)
+				{
+					enemyDamage = countDamage(this->opponent.pokemonList[0], this->myself.pokemonList[0], this->opponent.pokemonList[0].getSkill(enemySkill));
+					this->myself.pokemonList[0].setHP(this->myself.pokemonList[0].getHP() - enemyDamage);
+				}
+				else
+				{
+					if (this->opponent.pokemonList[1].getHP() > 0)
+					{
+						swap(this->opponent.pokemonList[0], this->opponent.pokemonList[1]);
+					}
+					else if (this->opponent.pokemonList[2].getHP() > 0)
+					{
+						swap(this->opponent.pokemonList[0], this->opponent.pokemonList[2]);
+					}
+					else
+					{
+						cout << "Opponent Lose!" << endl;
+						system("Pause");
+					}
+				}
+			}
+			else
+			{
+				enemyDamage = countDamage(this->opponent.pokemonList[0], this->myself.pokemonList[0], this->opponent.pokemonList[0].getSkill(enemySkill));
+				this->myself.pokemonList[0].setHP(this->myself.pokemonList[0].getHP() - enemyDamage);
+				if (this->myself.pokemonList[0].getHP() > 0)
+				{
+					myDamage = countDamage(this->myself.pokemonList[0], this->opponent.pokemonList[0], this->myself.pokemonList[0].getSkill(ownSkill));
+					this->opponent.pokemonList[0].setHP(this->opponent.pokemonList[0].getHP() - myDamage);
+				}
+				else
+				{
+					cout << "Your Pokemon Die! Please open your pokemon bag to choose a new one!" << endl;
+				}
+			}
 			this->turn++;
 		}
 		else if (select == "Bag")
@@ -574,7 +680,8 @@ void Game::loadFile()
 				}
 			}
 			file >> enemySkill;
-			countDamage(this->opponent.pokemonList[0], this->myself.pokemonList[0], this->opponent.pokemonList[0].getSkill(enemySkill));
+			enemyDamage = countDamage(this->opponent.pokemonList[0], this->myself.pokemonList[0], this->opponent.pokemonList[0].getSkill(enemySkill));
+			this->myself.pokemonList[0].setHP(this->myself.pokemonList[0].getHP() - enemyDamage);
 			this->turn++;
 		}
 		else if (select == "Status")
@@ -602,10 +709,13 @@ void Game::loadFile()
 				}
 			}
 			file >> enemySkill;
-			countDamage(this->opponent.pokemonList[0], this->myself.pokemonList[0], this->opponent.pokemonList[0].getSkill(enemySkill));
+			enemyDamage = countDamage(this->opponent.pokemonList[0], this->myself.pokemonList[0], this->opponent.pokemonList[0].getSkill(enemySkill));
+			this->myself.pokemonList[0].setHP(this->myself.pokemonList[0].getHP() - enemyDamage);
+			this->turn++;
 		}
 		else if (select == "Run")
 		{
+			cout << "Run!" << endl;
 			system("Pause");
 		}
 	}
