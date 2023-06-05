@@ -400,10 +400,18 @@ void Game::printTurn()
 	cout << this->turn << endl;
 }
 
-int Game::countDamage(Pokemon move,Pokemon target,Skill use)
+int Game::countDamage(Pokemon move, Pokemon target, Skill use)
 {
 	int damage = 0;
-	
+	if (use.getAtkType() == "Physical")
+	{
+		if (this->gameMode == "Test")
+		{
+			damage = (((2 * move.getLevel() + 10) / 250) * use.getPower() * (move.getAtk() / target.getDef()) + 2) * 1;
+		}
+		
+	}
+
 }
 
 void Game::loadFile()
