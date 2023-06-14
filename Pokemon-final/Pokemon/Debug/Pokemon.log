@@ -1,0 +1,55 @@
+﻿  Game.cpp
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(405,18): warning C4244: '=': conversion from 'wint_t' to 'char', possible loss of data
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(454,192): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(458,192): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(480,205): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(484,205): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(498,196): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(502,196): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(524,205): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(528,205): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(607,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(629,40): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(642,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(664,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(682,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(766,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(798,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(863,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(871,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(983,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1003,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1018,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1062,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1089,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1117,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1132,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1176,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1207,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1219,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1247,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1262,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1306,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1361,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1374,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1483,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1515,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1601,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1637,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1645,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1838,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1869,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1884,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1931,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(1989,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(2029,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(2098,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(2113,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(2160,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(2202,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(2222,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(2251,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(2320,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(2335,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\Group20_ver1\Pokemon\Pokemon\Game.cpp(2382,25): warning C4018: '<': signed/unsigned mismatch
+  Pokemon.vcxproj -> C:\Users\User\Downloads\Group20_ver1\Pokemon\Debug\Pokemon.exe
